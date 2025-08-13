@@ -1,0 +1,48 @@
+.HeaderMain{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+}
+
+.HeaderMain button{
+    background:none;
+    font-size: 20px;
+    color:white;
+    border-radius:10px ;
+    border: none;
+
+}
+
+.HeaderMain button:hover{
+      font-size: 20px;
+border-bottom:solid 2px yellow ;
+}
+.my-link{
+  text-decoration: none;
+  color: black;
+}
+.left-box{
+  height: 100%;
+  width: 15%;
+/* background:green; */
+}
+.right-box{
+  display: flex;
+  justify-items:center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+/* background:green; */
+gap:3%;
+}
+.profile-box{
+  height: 100%;
+  width: 5%;
+/* background:blue; */
+display: flex;
+justify-content:center;
+align-content: center;
+}
